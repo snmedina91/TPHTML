@@ -1,0 +1,77 @@
+header {
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 80%;
+	border: 1px solid red; 
+	background-image: url('../images/comidatitulo.jpg');
+	background-position: center;
+	height: 55px;
+}
+
+main{
+	margin-top: -40px;
+	text-align: center;
+    font-family: 'Taviraj', serif;
+
+}
+
+#title {
+	text-align: center;
+	color: white;
+	position: relative;
+	right: 35px;
+	top: -20px;
+}
+
+#logo {
+	height: 50px;
+	width:50px;
+	border-radius: 50%;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+.link {
+	border-style: solid;
+	padding: 5px, 5%;
+	border: 5px, 5%;
+	margin: 10%;
+	background-color: black;
+	color: lightblue;
+	position: relative;
+	top: -50px;
+}
+
+#inicio {
+	margin-top: 10%;
+}
+
+.imgplaya {
+	display: inline-block;
+	padding: 1%;
+	border: 1px;
+	border-style: solid;
+}
+
+.imgfood {
+	display: inline-block;
+	padding: 1%;
+	border: 1px;
+	border-style: solid;
+}
+
+.cultura {
+	display: inline-block;
+	padding: 1%;
+	border: 1px;
+	border-style: solid;
+}
+
+.inicio {
+font: verdana;	
+
+}
