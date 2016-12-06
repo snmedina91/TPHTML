@@ -1,0 +1,268 @@
+main{
+	position: absolute;
+	top: 80px;
+	text-align: center;
+    font-family: 'Taviraj', serif;
+}
+
+body{
+	margin-top: 70px;
+	background-image: url("../images/fondo1.jpg");
+	background-attachment: fixed;
+}
+
+#food {
+	position: relative;
+}
+
+#title {
+	text-align: center;
+	color: white;
+	position: relative;
+	right: 35px;
+	top: -20px;
+}
+
+
+
+.link {
+	
+	
+	background-position: center;
+	border-style: solid;
+	padding: 0px, 0%;
+	border: 0%
+	margin: 0%;
+	color: white;
+	top: -50px;
+	position: relative;
+	
+}
+
+#food {
+	margin-top: 10%;
+}
+
+
+
+.imgfood1 {
+	display: inline-block;
+	padding: 1%;
+	border: 1px;
+	border-style: solid;
+}
+
+
+.imgfood {
+	display: inline-block;
+	padding: 1%;
+	border: 1px;
+	border-style: solid;
+	transition: 0.7s;
+}
+
+.imgfood1:hover {
+	background-color: #8de0d9;
+	transition: 0.7s;	
+	}
+
+	iframe {
+		padding: 1%;
+	}
+
+.cultura {
+	display: inline-block;
+	padding: 1%;
+	border: 1px;
+	border-style: solid;
+}
+
+.inicio {
+font: verdana;	
+
+}
+
+.gastronomia {
+	position: relative;
+text-align: center;
+
+}
+
+
+
+.maps{
+ position: right;
+
+ top: 8em;
+
+}
+
+#cab {
+	display: inline-block;
+	top: 10px;
+	font-family: 'Lato', sans-serif;
+	z-index: 999;
+}
+
+nav.celular {
+	display: none;
+}
+
+.colorinche {
+	background-color: lightblue;
+	color: white;
+}
+
+footer {
+	text-align: left;
+}
+
+/* %%%% Código responsive para celulares %%%% */
+@media(max-width: 800px) {
+
+	header {
+	clear: both; 
+	margin:  auto; 
+	width: auto;
+
+	}
+
+	body {
+	position: relative;
+	top: 10%;
+	clear: both; 
+	margin: 0 auto; 
+	width: auto;
+	display: block;
+}
+
+#cab {
+	display: none;
+}
+
+
+	#home-1 {
+		background-size: 120%;
+		background-attachment: fixed;
+	}
+
+.imgfood1 {
+	text-align: center;
+}
+
+#food5{
+	text-align: center;
+
+}
+
+#food6{
+	text-align: center;
+
+}
+
+#food7{
+	text-align: center;
+
+}
+
+#food8{
+	text-align: center;
+
+}
+
+#food9{
+	text-align: center;
+
+}
+
+#food10{
+	text-align: center;
+	
+}
+
+#food11{
+	text-align: center;
+	
+}
+
+#food12{
+	text-align: center;
+	
+}
+
+#food13{
+	text-align: center;
+	}
+
+#food14{
+	text-align: center;
+
+}
+
+#food15{
+	text-align: center;
+
+}
+
+#food16{
+	text-align: center;
+
+}
+
+.p1 {
+	display: none;
+}
+
+#p2 {
+	display: none;
+}
+
+#p3 {
+	display: none;
+}
+
+.gastronomia {
+	position: relative;
+text-align: center;
+margin-left: -20px;
+
+}
+
+iframe {
+	width: 300px;
+	height: 300px;
+	padding: 2%;
+}
+
+
+}
+
+/* %%%% Código responsive para tvs %%%% */
+@media(min-width: 2000px) {
+
+}
+#carousel {
+	position: relative;
+	height: 300px;
+}
+
+.carousel-item {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+#carousel img {
+	height: 100%;
+}
+
+#botones {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index:3;
+}
