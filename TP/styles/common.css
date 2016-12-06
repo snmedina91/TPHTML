@@ -1,0 +1,354 @@
+head {
+	font-family: 'Dosis','Roboto', sans-serif;
+}
+
+main{
+	margin-top: -70px;
+
+}
+
+header {
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 10%;
+	background-position: center;
+	height: 80px;
+	background-color: #fff;
+	z-index: 9999;
+	margin: 0;
+}
+
+#cab {
+	display: inline-block;
+	top: 10px;
+	font-family: 'Lato', sans-serif;
+}
+
+#cab2 {
+	display: inline-block;
+	top: 50px;
+	font-family: 'Lato', sans-serif;
+}
+
+#cab3 {
+	display: inline-block;
+	top: 50px;
+	font-family: 'Lato', sans-serif;
+}
+
+#cab4 {
+	display: inline-block;
+	top: 50px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+#logo {
+	height: 75px;
+	width: 200px;
+	position: fixed;
+	top: 5px;
+	left: 100px;
+}
+
+
+.link {
+	border-style: none;
+   	padding: 15px 80px;
+	background-color: white;
+	color: black;
+	position: relative;
+	top: 10px;
+	border-style: none;
+	left: 35%;
+	list-style-type: none;
+	transition-duration: 0.4s;
+		
+}
+
+
+
+.link:hover {
+	background-color: lightblue;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.link2 {
+	display: none;
+		border-style: none;
+   	padding: 15px 80px;
+	background-color: white;
+	color: black;
+	position: relative;
+	top:35px;
+	border-style: none;
+	left: 30%;
+	list-style-type: none;
+	transition-duration: 0.4s;
+
+}
+
+.link2:hover {
+	background-color: lightblue;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.link3 {
+	display: none;
+		border-style: none;
+   	padding: 15px 80px;
+	background-color: white;
+	color: black;
+	position: relative;
+	top: 35px;
+	border-style: none;
+	left: 34%;
+	list-style-type: none;
+	transition-duration: 0.4s;
+
+}
+
+.link3:hover {
+	background-color: lightblue;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.link4 {
+	display: none;
+	border-style: none;
+   	padding: 15px 40px;
+	background-color: white;
+	color: black;
+	position: relative;
+	top:35px;
+	border-style: none;
+	left: 35%;
+	list-style-type: none;
+	transition-duration: 0.4s;
+
+}
+
+.link4:hover {
+	background-color: lightblue;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.grid {
+  display: inline-block;
+  margin: 1%;
+  vertical-align: top;
+}
+
+.grid-2 {
+  width: 47%;
+}
+
+.grid-3 {
+  width: 30%;
+}
+
+footer {
+  background-color: #333;
+  padding: 50px 10%;
+  color: #fff;
+  padding-top: 1%;
+  font-family: 'Lato', sans-serif;
+}
+
+.linkf {
+	position: relative;	
+	padding: 15%;
+	margin-top: 10px;
+
+
+}
+
+#email {
+	margin: 5px;
+}
+
+#name {
+	margin: 5px;
+}
+
+textarea {
+	margin: 10px;
+}
+
+#enviar {
+	margin-top: 10px;
+	text-align: center;
+}
+
+footer a:link {
+    color: #9bc1ff;
+}
+
+/* visited link */
+footer a:visited {
+    color: #b98de0;
+}
+
+/* mouse over link */
+footer a:hover {
+    color: #8de0a6;
+}
+
+/* selected link */
+footer a:active {
+    color: blue;
+}
+
+textarea {
+	width: 200px;
+	height: 150px;
+
+
+}
+
+#menu {
+	display: none;
+		position: absolute;
+		right: 30px;
+		top: 15px;
+		font-size: 40px;
+}
+
+.navcel {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 1%;
+	margin: 1%;
+}
+
+.select {
+	 border: 3px solid #555;
+	     background-color: #b8efe5;
+}
+
+
+
+@media(max-width: 800px) {
+
+	main {
+		position: relative;
+		padding-top: 5%;
+
+	}
+
+	#cab {
+		display: none;
+		position:absolute;
+		top: 100%;
+		right: 0;
+		background-color: #000;
+		padding: 10px 10%;
+	}	
+
+	#cab1 {
+		display: none;
+		position:absolute;
+		top: 100%;
+		right: 0;
+		background-color: #000;
+		padding: 10px 10%;
+	}
+
+	#menu {
+		display: block;
+		top: 30px;
+		right: 30px;
+
+	}
+
+	.navcel {
+	display: none;
+	position: absolute;
+	border-style: none;
+   	padding: 0;
+	background-color: white;
+	color: black;
+	position: absolute;
+	top: 25%;
+	border-style: none;
+	right: 0;
+	list-style-type: none;
+	font-family: 'Dosis','Roboto', sans-serif;	
+		
+}
+
+.ico {
+	font-family: 'Dosis','Roboto', sans-serif;	
+	background-color: white;
+	padding: 6px;
+	border-style: solid;
+	border-color: #70a6ff;
+	text-align: center;
+	text-decoration: none;
+
+
+}
+
+		#logo {
+		position: absolute;
+		left: 0px;
+	}
+
+	footer {
+		display: block;
+		position: absolute;
+		padding-left: 6px;
+		padding-right: 0;
+
+	}
+
+	.grid {
+		display: block;
+	}
+
+	iframe {
+		width: 300px;
+		position: relative;
+		margin-left: 2%;
+	}
+
+	#mapa {
+		position: absolute;
+		margin-left: -35px;
+		margin-bottom: auto;
+	}
+
+	#carousel  {
+		display: none;
+	}
+
+	#oferta {
+		display: none;
+	}
+
+	.iconav {
+		color: black;
+		text-decoration: none;
+		font-family:'Lemonada', cursive; 
+	}
+
+	#nclist {
+	list-style: none;
+	 margin-left: -210px;
+    position: absolute;
+    top: 26px;
+    right: 22px;
+	}
+
+
+}
+

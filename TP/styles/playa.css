@@ -1,0 +1,273 @@
+main {
+	margin-top: 8%;
+			background-image: url('../images/textura1.jpg');
+			background-attachment: fixed;
+			margin-bottom: 1%;
+}
+
+
+
+.nomplaya {
+	text-align: center;
+	border-top-style: solid;
+		font-family:'Dekko', cursive; 
+}
+
+p {
+		font-family:'Chewy', cursive; 
+}
+
+#navegador {
+	display: inline-block;	
+	text-align: center;
+}
+#playa1 {
+	display: inline-block;
+	position: relative;
+	left: -5%;
+}
+
+#playa2 {
+	display: inline-block;
+	position: relative;
+}
+
+#playa3 {
+	display: inline-block;
+	position: relative;
+	left: -5%;
+}
+
+#playa4 {
+	display: inline-block;
+	position: relative;
+}
+
+#p1 {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+	
+
+}
+
+#p1desc {
+	display: none;
+	position: absolute;
+	color: white;
+   	margin: 30px;
+   	border: 1px solid black;
+	text-align: center;
+	left: 1%;
+	top: 66%;
+	right: 1%;
+	z-index: 0;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+#p2 {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+
+}
+
+#p2desc {
+		display: none;
+	position: absolute;
+	color: white;
+   	margin: 30px;
+   	border: 1px solid black;
+	text-align: center;
+	left: 1%;
+	top: 58%;
+	right: 1%;
+	z-index: 0;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+#p3 {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+
+
+}
+
+#p3desc {
+		display: none;
+	position: absolute;
+	color: white;
+   	margin: 30px;
+   	border: 1px solid black;
+	text-align: center;
+	left: 1%;
+	top: 66%;
+	right: 1%;
+	z-index: 0;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+#p4 {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+
+}
+
+#p4desc {
+		display: none;
+	position: absolute;
+	color: white;
+   	margin: 30px;
+   	border: 1px solid black;
+	text-align: center;
+	left: 1%;
+	top: 56%;
+	right: 1%;
+	z-index: 0;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.celular {
+	display: none;
+}
+
+
+
+/* %%%% Código responsive para celulares %%%% */
+@media(max-width: 800px) {
+
+	header {
+	clear: both; 
+	margin: 0 auto; 
+	width: auto;
+
+	}
+
+	body {
+	position: relative;
+	top: 10%;
+	clear: both; 
+	margin: 0 auto; 
+	width: auto;
+	display: block;
+}
+
+
+	#playa1 {
+		text-align: center;
+
+    position: relative;
+    left: 0px;
+
+	}
+
+	#p1 {
+	width: 375px;
+}
+
+	#p1desc {
+		top: 58%;
+	}
+
+	#nomplaya:hover {
+	color: white;
+
+	}
+
+	#playa2 {
+		text-align: center;
+    position: relative;
+    left: 0px;
+
+	}
+
+	#p2 {
+	width: 375px;
+}
+
+	#p2desc {
+		top: 44%;
+	}
+
+	#playa3 {
+		text-align: center;
+    position: relative;
+    left: 0px;
+
+	}
+
+	#p3 {
+	width: 375px;
+}
+
+	#p3desc {
+		top: 58%;
+	}
+
+	#playa4 {
+		text-align: center;
+    position: relative;
+    left: 0px;
+    padding-bottom: 1%;
+
+	}
+
+	#p4 {
+	width: 375px;
+}
+
+	#p4desc {
+		top: 46%;
+	}
+
+	.navegador {
+		margin: 0;
+	}
+
+	img { 
+	margin: 0;
+	width: 300px;
+	 }
+
+
+	#logo {
+		position: absolute;
+		left: 0px;
+	}
+
+
+	#cab {
+		display: none;
+		position:absolute;
+		top: 100%;
+		right: 0;
+		background-color: #000;
+		padding: 10px 10%;
+	}
+
+
+	.celular {
+		position: absolute;
+		right: 10px;
+		color: black;
+	}
+	nav .material-icons {
+		font-size: 45px;
+	}
+
+
+
+
+
+
+}

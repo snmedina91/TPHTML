@@ -1,0 +1,292 @@
+
+
+
+#inicio {
+	background-image: url('../images/maldivashome.jpg');
+	background-attachment: fixed;
+	background-size: 100%;
+	padding: 250px 150px;
+	border-bottom: solid;
+	margin-top: 10%;
+	
+
+}
+
+#center {
+	font-family: 'Lemonada', cursive;
+	position: absolute;
+	color: white;
+   	margin: auto;
+   	border: 1px solid black;
+	text-align: center;
+	left: 25%;
+	top: 35%;
+	z-index: 0;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.3);
+	
+}
+
+#playas {
+	background-color: #b7d2ff;
+	margin: 0;
+	padding-bottom: 3px;
+}
+
+.separador {
+	font-family:'Lemonada', cursive; 
+	font-size: 34px;
+}
+
+.separador:hover {
+	font-family:'Lemonada', cursive; 
+	font-size: 34px;
+	color: #214989;
+}
+
+#gastronomia {
+	position: relative;
+	margin: 0;
+		background-image: url('../images/textura1.jpg');
+			padding-bottom: 3px;
+			background-attachment: fixed;
+}
+
+
+.imgfood {
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	left: 7%;
+	transition: 0.5s;
+}
+
+.imgfood:hover {
+	background-color: #b2cfff;
+		text-decoration: underline;	
+	transition: 0.5s;
+
+}
+
+.imgfood1 {
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	left: 7%;
+	transition: 0.5s;
+}
+
+.imgfood1:hover {
+	background-color: #ffff84;
+		text-decoration: underline;	
+	transition: 0.5s;
+
+
+}
+
+.imgfood2 {
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	left: 7%;
+	transition: 0.5s;
+}
+
+.imgfood2:hover {
+	background-color: #a3ffee;
+		text-decoration: underline;	
+	transition: 0.5s;
+
+}
+
+div.imgfood {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+div.imgfood1 {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+div.imgfood2 {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  	font-family: 'Lemonada', cursive;
+}
+
+.imagenes {
+	width: 500px;
+	height: 300px;
+}
+
+#musica {
+	background-color: #9066f9;
+	margin: 0;
+	background-image: url('../images/textura2.png');
+		padding-bottom: 3px;
+		background-attachment: fixed;
+}
+
+.separador {
+	text-align: center;
+}
+
+.celular {
+	display: none;
+}
+
+#carousel {
+	position: relative;
+	height: 500px;
+}
+
+.carousel-item {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+#carousel img {
+	height: 100%;
+}
+
+.celular {
+	display: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+
+/* %%%% Código responsive para celulares %%%% */
+@media(max-width: 800px) {
+
+	header {
+ 
+	margin: 0 auto; 
+	width: auto;
+
+
+	}
+
+
+	body {
+	position: relative;
+	top: 20%;
+	margin: 0 auto; 
+	width: auto;
+	display: block;
+}
+
+
+
+
+
+	.material-icons {
+		position: absolute;
+		right: 0px;
+	}
+
+
+
+	main{
+		width: auto;
+	}
+
+	#inicio {
+		width: auto;
+		background-attachment: no-repeat;
+		background-image: none;
+		background-color: #ccdfff;
+		    padding: 124px 100px;
+	}
+
+	#center {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+	}
+
+	#gastronomia {
+		display: block;
+	}
+
+
+	.imgfood {
+		display: block;
+		margin: 0px;
+	}
+
+	#musica {
+		display: block;
+	}
+
+	.imgfood1 {
+		display: block;
+		margin: 0;
+	}
+
+	.imgfood2 {
+		display: block;
+		margin: 0;
+	}
+
+	.imagenes {
+		width: 360px;
+		height: auto;
+	}
+
+	.container {
+		position: relative;
+	}
+
+
+
+
+	iframe {
+		display: block;
+		margin: auto;
+		width: 360px;
+		height: 300px;
+	}
+
+	.container {
+		display: block;
+	}
+
+
+
+	footer {
+		display: block;
+	}
+
+	.grid {
+		display: block;
+		text-align: left;
+	}
+
+
+
+
+}
